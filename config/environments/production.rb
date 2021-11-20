@@ -125,4 +125,4 @@ Rails.application.configure do
 
 end
 
-Rails.application.routes.default_url_options[:host] = 'photo-app-32.herokuapp.com'
+Rails.application.routes.default_url_options[:host] = 'saas-project-app-23.herokuapp.com'

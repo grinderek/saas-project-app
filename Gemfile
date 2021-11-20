@@ -25,7 +25,8 @@ gem 'devise-bootstrap-views'
 gem 'ros-apartment', require: 'apartment'
 gem 'devise'
 gem 'jquery-rails'
-
+gem 'devise_invitable', '~> 2.0.0'
+gem 'bootstrap-datepicker-rails'
 # Use Active Storage variant
 # gem 'image_processing', '~> 1.2'
 
