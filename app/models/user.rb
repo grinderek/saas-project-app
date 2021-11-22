@@ -1,7 +1,7 @@
 class User < ApplicationRecord
   # Include default devise modules. Others available are:
   # :confirmable, :lockable, :timeoutable, :trackable and :omniauthable
-  devise :database_authenticatable, :registerable,
+  devise :invitable, :database_authenticatable, :registerable,
          :recoverable, :rememberable, :validatable, :confirmable, request_keys: [:subdomain]
 
   after_create :create_tenant
@@ -17,7 +17,10 @@ class User < ApplicationRecord
   private
 
   def create_tenant
-    Apartment::Tenant.create(subdomain)
+    byebug
+    unless subdomain.nil?
+      Apartment::Tenant.create(subdomain)
+    end
   end
 
   def delete_tenant

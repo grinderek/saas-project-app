@@ -11,9 +11,15 @@ Rails.application.routes.draw do
   end
 
   constraints Subdomain do
-    resources :projects
+    resources :projects do
+      get 'users', on: :member
+      put 'add_user', on: :member
+    end
   end
 
-  devise_for :users
+  devise_for :users, :controllers => {
+    :registrations => "registrations",
+    :invitations => "invitations",
+  }
   root 'home#index'
 end

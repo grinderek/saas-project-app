@@ -18,9 +18,9 @@ class ApplicationController < ActionController::Base
   end
 
   def set_mailer_host
-    subdomain = current_user ? "#{current_user.subdomain}." : ""
+    subdomain = current_user ? "#{current_user.subdomain}." : nil
 
-    if params[:user]
+    if subdomain.nil? && params[:user]
       subdomain = "#{params[:user][:subdomain]}."
     end
 
