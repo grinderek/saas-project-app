@@ -41,7 +41,7 @@
       <td><%= other_user.email %></td>
       <td>
         <%= link_to 'Add',
-                    new_user_invitation_path,
+                    add_user_project_path(user_id: other_user.id),
                     :method => :put,
                     :class => 'btn btn-xs btn-success' %>
       </td>

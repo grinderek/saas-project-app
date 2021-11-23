@@ -8,11 +8,9 @@ class InvitationsController < Devise::InvitationsController
       resource = resource_class.accept_invitation!(update_resource_params)
       # Report accepting invitation to analytics
       # Analytics.report('invite.accept', resource.id)
-      byebug
       resource[:subdomain] = request.subdomain
       resource[:is_admin] = false
       resource.save
-      byebug
       resource
     end
 end

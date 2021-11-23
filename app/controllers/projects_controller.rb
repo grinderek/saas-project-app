@@ -64,12 +64,12 @@ class ProjectsController < ApplicationController
 
   def add_user
     @project_user = UserProject.new(user_id: params[:user_id], project_id: @project.id)
-
+    byebug
     respond_to do |format|
       if @project_user.save
-        format.html { redirect_to users_tenant_project_url(id: @project.id), notice: "User was successfully added to project" }
+        format.html { redirect_to users_project_url(id: @project.id), notice: "User was successfully added to project" }
       else
-        format.html { redirect_to users_tenant_project_url(id: @project.id), error: "User was not added to project" }
+        format.html { redirect_to users_project_url(id: @project.id), error: "User was not added to project" }
       end
     end
   end

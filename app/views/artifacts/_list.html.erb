@@ -12,7 +12,7 @@
   <% artifacts.each do |artifact| %>
     <tr>
       <td><%= link_to artifact.name, artifact_path(artifact), class: 'main-link' %></td>
-      <td><%= s3_link artifact.key %></td>
+      <td><%= s3_link current_user.subdomain, artifact.key %></td>
       <td>
         <%= link_to t('.destroy', :default => t("helpers.links.destroy")),
                     artifact_path(artifact),

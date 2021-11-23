@@ -5,19 +5,22 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6d6cb731-2976-4392-9b99-7b2f2a32f447" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/app/controllers/invitations_controller.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/views/projects/users.html.erb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/saas-project-app.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/saas-project-app.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/stylesheets/custom.css.scss" beforeDir="false" afterPath="$PROJECT_DIR$/app/assets/stylesheets/custom.css.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/controllers/application_controller.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/application_controller.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/controllers/user_projects_controller.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/user_projects_controller.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/models/user.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/models/user.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/artifacts/_form.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/artifacts/_form.html.erb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/initializers/devise.rb" beforeDir="false" afterPath="$PROJECT_DIR$/config/initializers/devise.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/routes.rb" beforeDir="false" afterPath="$PROJECT_DIR$/config/routes.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db/migrate/20211117134859_add_subdomain_to_user.rb" beforeDir="false" afterPath="$PROJECT_DIR$/db/migrate/20211117134859_add_subdomain_to_user.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db/schema.rb" beforeDir="false" afterPath="$PROJECT_DIR$/db/schema.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Gemfile" beforeDir="false" afterPath="$PROJECT_DIR$/Gemfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Gemfile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/Gemfile.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/controllers/invitations_controller.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/invitations_controller.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/controllers/projects_controller.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/projects_controller.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/helpers/application_helper.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/helpers/application_helper.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/models/artifact.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/models/artifact.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/models/member.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/models/member.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/artifacts/_list.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/artifacts/_list.html.erb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/artifacts/show.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/artifacts/show.html.erb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/projects/show.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/projects/show.html.erb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/projects/users.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/projects/users.html.erb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -181,7 +184,8 @@
       <workItem from="1637246143126" duration="1725000" />
       <workItem from="1637326322031" duration="582000" />
       <workItem from="1637401693509" duration="25365000" />
-      <workItem from="1637602866269" duration="8770000" />
+      <workItem from="1637602866269" duration="16792000" />
+      <workItem from="1637655029776" duration="3748000" />
     </task>
     <servers />
   </component>
