@@ -1,5 +1,5 @@
 class ApplicationController < ActionController::Base
-  protect_from_forgery with: :exception
+  protect_from_forgery prepend: true
   before_action :configure_permitted_parameters, if: :devise_controller?
   before_action :redirect_to_subdomain
   before_action :set_mailer_host
@@ -25,6 +25,7 @@ class ApplicationController < ActionController::Base
     end
 
     ActionMailer::Base.default_url_options[:host] = "#{subdomain}lvh.me:3000"
+    # ActionMailer::Base.default_url_options[:host] = "#{subdomain}saas-project-app-23.herokuapp.com"
   end
 
   protected

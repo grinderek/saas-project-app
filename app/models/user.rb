@@ -17,7 +17,6 @@ class User < ApplicationRecord
   private
 
   def create_tenant
-    byebug
     unless subdomain.nil?
       Apartment::Tenant.create(subdomain)
     end
