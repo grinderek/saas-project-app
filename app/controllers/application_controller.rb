@@ -24,8 +24,8 @@ class ApplicationController < ActionController::Base
       subdomain = "#{params[:user][:subdomain]}."
     end
 
-    ActionMailer::Base.default_url_options[:host] = "#{subdomain}lvh.me:3000"
-    # ActionMailer::Base.default_url_options[:host] = "#{subdomain}saas-project-app-23.herokuapp.com"
+    # ActionMailer::Base.default_url_options[:host] = "#{subdomain}lvh.me:3000"
+    ActionMailer::Base.default_url_options[:host] = "#{subdomain}saas-project-app-23.herokuapp.com"
   end
 
   protected
